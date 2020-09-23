@@ -1,5 +1,77 @@
-@media (max-height: 900px) {
-    .maxim__photo {
-        width: 75%;
+    @media (max-height: 900px) {
+        .maxim__photo {
+            width: 75%;
+        }
     }
-}
+    
+    @media (max-width: 960px) {
+        .book {
+            max-width: 150px;
+        }
+        .diagram {
+            max-width: 150px;
+        }
+    }
+    
+    @media (max-width: 780px) {
+        .question__button a {
+            font-size: 10px;
+            font-weight: 400;
+        }
+        .question__collumn p {
+            font-size: 20px;
+        }
+    }
+    
+    @media (max-width: 750px) {
+        .questions__item-title div {
+            max-width: 500px;
+        }
+    }
+    
+    @media (max-width: 700px) {
+        body,
+        .question__collumn {
+            font-size: 20px;
+        }
+        .maxim__footer,
+        .dania__collumn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .maxim__image {
+            text-align: center;
+        }
+        .maxim__photo {
+            width: 40%;
+        }
+        .reverse {
+            flex-direction: column-reverse;
+        }
+    }
+    
+    @media (max-width: 650px) {
+        .question__image,
+        .question__danil {
+            flex-wrap: wrap;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .questions__item-title div {
+            max-width: 350px;
+        }
+    }
+    
+    @media (max-width: 435px) {
+        .questions__item-title div {
+            max-width: 280px;
+        }
+    }
+    
+    @media (max-width: 355px) {
+        .questions__item-title div {
+            max-width: 200px;
+        }
+    }
